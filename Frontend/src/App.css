@@ -1,0 +1,12 @@
+
+@font-face {
+  font-family: 'font1';
+  src: url('./assets/my') format('truetype'); /* Adjust the path and font format accordingly */
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+  font-family: Arial, sans-serif;
+  margin: 0px;
+}
+

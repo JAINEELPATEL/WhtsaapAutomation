@@ -1,0 +1,173 @@
+/* FeatureCard.css */
+.MainPage {
+  align-content: center;
+}
+
+.Feature-section {
+  margin: 20px;
+  padding: 20px;
+}
+
+.Feature-title-section {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  padding-bottom: 15px;
+    transition: all ease 0.3s;
+}
+
+
+.Feature-Card {
+  width: 150px; /* Adjust card width */
+  height: 150px; /* Adjust card height */
+  background-color: #f0f0f0; /* Light greyish background color */
+  border-radius: 10px; /* Square shape with rounded corners */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+  transition: box-shadow 0.3s ease;
+}
+
+.Feature-Logo img {
+  width: 80px; /* Adjust logo size */
+  height: 80px; /* Adjust logo size */
+}
+
+.Feature.short.desc h3 {
+  text-align: center;
+  font-size: 18px; /* Adjust font size */
+  color: #333; /* Dark font color */
+}
+
+.Feat-slider {
+  display: flex;
+  gap: 85px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto; /* Enable horizontal scrollbar */
+  
+}
+
+.Feature-Card:hover{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+/*HERO SECTION*/
+.MainPage {
+  padding: 7% auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+.Hero-section {
+  background-color: #000000;
+  padding:54px 20px 20px 20px;
+  
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* More shadow */
+}
+
+.Logo-part {
+  background-color: #000000; /* Same as Hero-section */
+
+}
+
+.Logo-part h1 {
+  font-size: 36px;
+  padding-bottom: 14px;
+  color: #0f83ff;
+}
+
+.Hero-content h1 {
+  font-size: 24px;
+
+  padding: 14px 0px 8px 0px;
+}
+
+.Hero-Desc {
+  text-align: center; /* Center the description */
+  padding: 3.1% 7%; /* Add padding to the left and right sides */
+}
+
+.Hero-Desc p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center; /* Center the text in the description */
+}
+
+.Signup {
+  margin-top: 20px;
+}
+
+.signup-container {
+  width: 100%; /* Full width for the container */
+  display: flex;
+  justify-content: center;
+}
+
+.signup-dice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 40px;
+  border-radius: 42px;
+  background-color: #eeeeee; /* Changed background color */
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.Signup h3 {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #333;
+}
+
+.Signup button {
+  background-color: #0f83ff;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Signup button:hover {
+  background-color: #003f7f;
+}
+
+@media only screen and (max-width: 600px) {
+  .Hero-Desc {
+    padding: 3.1% 3%; /* Adjust padding for smaller screens */
+  }
+
+  .Logo-part h1 {
+    font-size: 28px; /* Adjust logo size for smaller screens */
+  }
+
+  .Hero-content h1 {
+    font-size: 20px; /* Adjust heading size for smaller screens */
+    padding: 12px 0px 6px 0px;
+  }
+
+  .Hero-Desc p {
+    font-size: 14px; 
+    padding: 14.5px;/* Adjust text size for smaller screens */
+  }
+
+  .signup-dice {
+    padding: 10px 23px; /* Adjust padding for smaller screens */
+  }
+
+  .Signup h3 {
+    font-size: 18px; /* Adjust heading size for smaller screens */
+  }
+
+  .Signup button {
+    padding: 8px 24px; /* Adjust button padding for smaller screens */
+    font-size: 14px; /* Adjust button font size for smaller screens */
+  }
+}

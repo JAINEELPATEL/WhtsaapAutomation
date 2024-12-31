@@ -1,0 +1,135 @@
+/* HowItWorks.css */
+.HowItWorks {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: black;
+    color: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .HowItWorksCard {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    max-width: 200px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+    padding: 40px;
+    margin-right: 130px;
+    min-width: 260px;
+    height: 100%; /* Set a fixed height for the card */
+  overflow: hidden; 
+
+  }
+
+  .HowItWorksCard:hover{
+    background-color: #e8e8e8;
+    box-shadow: 0 5px 15px rgba(237, 236, 236, 0.1);
+  }
+
+  .HowItWorksContent h1{
+        color: #026fe4;
+        margin-bottom: 10px;
+  }
+  
+  
+  .HowItWorksContent {
+    padding: 80px;
+    padding-left: 130px;
+    max-width: 50%;
+    font-size: 18px;
+    color: #fff;
+    height: 100%; /* Set a fixed height for the card */
+  overflow: hidden; 
+ 
+
+  }
+
+  .HowItWorksContent p{
+    margin-top: 30px;
+    line-height: 2;
+  }
+  
+  .HowItWorksSteps {
+    margin-top: 20px;
+  }
+  
+  .HowItWorksStep {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .HowItWorksStepNumber {
+    width: 30px;
+    height: 30px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+
+  .HowItWorksStepText{
+    color: black;
+  }
+
+
+  .HowItWorksContent button{
+    height: 50px;
+    vertical-align: middle;
+    border-radius: 28px;
+    background-color: #026fe4;
+    color: #fff;
+    border: black;
+    padding: 15px 70px ;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: all ease 0.3s;
+  }
+
+  .HowItWorksContent button:hover{
+          background-color: #5bf010;
+          cursor: pointer;
+          color: black;
+  }
+
+
+
+
+  /* Media Queries for Mobile Devices */
+@media only screen and (max-width: 600px) {
+
+  .HowItWorks{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .HowItWorksCard {
+     /* Adjust margin for mobile */
+    margin-right: 0; /* Remove right margin for mobile */
+    width: 100%; /* Set full width for mobile */ /* Remove max-width for mobile */
+    padding: 20px; /* Adjust padding for mobile */
+  }
+
+  .HowItWorksContent {
+    padding: 20px; /* Adjust padding for mobile */
+    max-width: none; /* Remove max-width for mobile */
+    font-size: 16px; /* Adjust font size for mobile */
+  }
+
+  .HowItWorksContent button {
+    padding: 10px 30px; /* Adjust button padding for mobile */
+    font-size: 14px; /* Adjust button font size for mobile */
+  }
+}

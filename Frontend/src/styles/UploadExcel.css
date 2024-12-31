@@ -1,0 +1,124 @@
+.TotalSheet{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.dropzone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+  transition: box-shadow 0.3s ease;
+  border-radius: 20px;
+  padding: 15px;
+  align-items: center;
+
+}
+
+.dropzone svg{
+            margin: 5px;
+            width: 45px;
+            height: 45px;
+}
+
+
+.dropzone:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.excelTable{
+  width: 70%;
+}
+
+
+.excelTable table {
+    width: 80%;
+    padding: 50px;
+    margin: 20px;
+    border-collapse: collapse;
+  }
+  
+  .excelTable th,
+  .excelTable td {
+    padding: 8px;
+    border: 1px solid #f2f2f2;
+  }
+  
+  .excelTable th {
+    background-color: #f2f2f2;
+  }
+  
+  .excelTable th:first-child,
+  .excelTable td:first-child {
+    text-align: left;
+  }
+  
+  .excelTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .excelTable tr:hover {
+    background-color: #ddd;
+  }
+  
+  .excelTable button {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+
+  
+/* UploadExcel.css */
+
+button {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 8px 16px;
+    margin: 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px; /* Increased border radius */
+    color: #fff;
+    background-color: #2196f3; /* Blue background color for all buttons */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Nice box shadow */
+  }
+  
+  button:hover {
+    background-color: #0d8cf0; /* Lighter blue on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Slightly stronger box shadow on hover */
+  }
+  
+  #disheet {
+    background-color: #4caf50; /* Green */
+  }
+  
+  #hidsheet {
+    background-color: #2196f3; /* Blue */
+  }
+  
+  #rmsheet {
+    background-color: #f44336; /* Red */
+  }
+  
+  button:focus {
+    outline: none; /* Remove focus outline */
+  }
+  
+  .buttonGroup {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    margin-top: 20px;
+  }
+  
+  button svg {
+    margin-right: 8px; /* Add space between icon and text */
+  }
+  
+
+  .OnDisplaySection{
+    margin: 35px;
+    padding: 15px;
+  }

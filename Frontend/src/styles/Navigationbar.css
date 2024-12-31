@@ -1,0 +1,157 @@
+.Nav-cont {
+  display: flex;
+  /*justify-content: space-between;*/
+  align-items: center;
+  height: 70px;
+  padding: 10px 20px;
+  background-color: #eeeeee; /* Lighter background color */
+  box-shadow: 0 2px 5px rgba(254, 251, 251, 0.1);
+  padding-bottom: 10px;
+ 
+}
+
+.Logo-cont h3 {
+  margin: 0;
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 30px; /* Increased font size for logo */
+  margin-right: 10px; /* Added margin between logo and text */
+  margin-left: 5px;
+}
+
+#logodir{
+  text-decoration: none;
+  color: inherit;
+}
+
+.mid-info-cont {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  margin: 0 20px;
+  margin-left: 4.13%;
+}
+
+.info-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.info-list li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000000;
+  font-family: Arial, sans-serif;
+}
+
+.end-login-cont {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link-1 button {
+  padding: 12px 24px; /* Increased button padding */
+   /* Slightly rounded corners */
+  background-color: #060606;
+  border: none;
+  color: #eeeeee;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16.5px; /* Increased button font size */
+  font-weight: 500;
+  height: 100%;
+  margin-right: 10px; /* Added margin between buttons */
+   height: 47px;
+}
+
+.nav-link-1 button:hover {
+  background-color: #0f83ff;
+  color: #eeeeee;
+}
+
+
+.nav-link-1 svg {
+  font-size: 22px;
+  vertical-align: middle;
+  margin-bottom: 4.74px;
+  margin-right: 5px;
+  font-weight: 400;
+}
+
+
+.nav-link svg {
+  font-size: 22px;
+  vertical-align: middle;
+  margin-bottom: 4.74px;
+  margin-right: 5px;
+  font-weight: 400;
+}
+
+a.nav-link{
+  font-size: 20px;
+  margin-left: 5px;
+  transition: all ease 0.3s;
+}
+
+a.nav-link:hover{
+
+  background-color: #000000;
+  padding: 8px;
+  color: #eeeeee;
+  font-family: Arial, sans-serif;
+  border-radius: 4px;
+
+}
+
+#btnid2 svg{
+      font-size: 20px;
+}
+
+
+
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 600px) {
+  .Nav-cont {
+    height: 60px; /* Adjust height for mobile */
+    padding: 10px; /* Adjust padding for mobile */
+    padding-bottom: 5px; /* Adjust bottom padding for mobile */
+  }
+
+  .Logo-cont h3 {
+    font-size: 24px; /* Adjust font size for mobile */
+  }
+
+
+  .mid-info-cont {
+    margin: 0; /* Remove margins for mobile */
+    justify-content: flex-start; /* Align items to start for mobile */
+  }
+
+  .info-list li {
+    display: block; /* Change display to block for mobile */
+    margin: 0; /* Remove margin for mobile */
+    margin-bottom: 10px; /* Add bottom margin for mobile */
+  }
+
+  .nav-link-1 button {
+    padding: 10px 20px; /* Adjust button padding for mobile */
+    font-size: 16px; /* Adjust button font size for mobile */
+    min-height: auto; /* Remove min-height for mobile */
+    margin-right: 0; /* Remove right margin for mobile */
+  }
+
+  .nav-link {
+    font-size: 16px; /* Adjust link font size for mobile */
+    margin-left: 0; /* Remove left margin for mobile */
+  }
+
+  #btnid2 svg {
+    font-size: 16px; /* Adjust SVG icon size for mobile */
+  }
+}

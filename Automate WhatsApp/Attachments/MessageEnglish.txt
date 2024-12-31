@@ -1,0 +1,23 @@
+REMINDER
+
+Hello {receiver_name}, 
+
+We would like to inform you that your policy is due in {month_name}-{year}. 
+
+To prevent incurring late fees, we kindly urge you to complete the renewal process on or before 20/{month}/{year}.
+
+Please note your policy details: 
+Name: {receiver_name}.
+Policy number: {policy_number}.
+Premium amount: {premium_amount} + TAX.
+
+NOTE: 
+-> If paid then ignore the message.
+-> If auto detect or ECS or E-NACH mode is opt then maintain the premium amount balance.
+
+If you have any questions or require assistance, please feel free to contact us. 
+
+Thank you for staying with us, 
+L.I.C.
+
+Today: {day}/{month}/{year}, {day_name}

@@ -1,0 +1,75 @@
+
+
+.MainSidebar{
+    width: 225px;
+    height: 90vh;
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+
+.SidebarElements{
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+}
+
+.Sidebarcont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px;
+    margin: 10px 0px;
+    transition: all ease 0.3s;
+
+}
+
+.Sidebarcont:hover{
+    background-color: rgba(18, 103, 249, 0.971);
+    border-radius: 7px;
+    padding: 14px;
+    cursor: pointer;
+}
+
+.SidebarName{
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.ProfileEndSection{
+    margin-bottom: 40px;
+    color: #fff;
+}
+.ProfileEndSection hr{
+    margin-bottom: 20px;
+}
+.ProfileEndSection h3{
+    margin-left: 120px;
+}
+
+.sidebarlogo svg{
+    height: 21px;
+    width: 21px;
+}
+
+.SidebarElements a {
+    color: inherit; /* Use the default text color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .SidebarElements a.active {
+    /* Add styles for active link */
+     /* Example: Make the text bold */
+    background-color: rgba(18, 103, 249, 0.971);
+    border-radius: 15px;
+    margin:5px;
+  }
+
+.Sidebarcont h3{
+    font-size: 16px;
+    font-weight: 550;
+}

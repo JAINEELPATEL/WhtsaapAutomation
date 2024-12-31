@@ -1,0 +1,90 @@
+/* Assuming you are using CSS Modules */
+
+/* LeftHalf styles */
+.LeftHalf {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the width */
+  }
+  
+  /* HowItWorks container styles */
+  .HowItWorks {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* HowItWorksCard styles */
+  .HowItWorksCard {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* HowItWorksImage styles */
+  .HowItWorksImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* HowItWorksContent styles */
+  .HowItWorksContent {
+    padding: 20px;
+  }
+  
+  /* HowItWorksSteps styles */
+  .HowItWorksSteps {
+    margin-top: 20px;
+  }
+  
+  /* HowItWorksStep styles */
+  .HowItWorksStep {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* HowItWorksStepNumber styles */
+  .HowItWorksStepNumber {
+    width: 30px;
+    height: 30px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  /* RightHalf styles */
+  .RightHalf {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* SmallContent styles */
+  .SmallContent {
+    text-align: center;
+  }
+  
+  /* ReadMoreButton styles */
+  .ReadMoreButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .ReadMoreButton:hover {
+    background-color: #0056b3;
+  }
+  

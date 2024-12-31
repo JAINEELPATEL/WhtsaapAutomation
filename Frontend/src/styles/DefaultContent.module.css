@@ -1,0 +1,33 @@
+.defaultContent {
+    padding: 20px;
+  }
+  
+  .quickLinks {
+    margin-top: 20px;
+  }
+  
+  .btnPrimary,
+  .btnSecondary {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .btnPrimary {
+    background-color: #007bff;
+  }
+  
+  .btnSecondary {
+    background-color: #6c757d;
+  }
+  
+  .dashboardOverview,
+  .recentActivity,
+  .helpSupport {
+    margin-top: 30px;
+  }
+  

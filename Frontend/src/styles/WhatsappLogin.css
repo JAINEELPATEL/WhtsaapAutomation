@@ -1,0 +1,68 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: white;
+    width: 380px;
+    background-color: #EAEAE2; /* Lighter background color */
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    background-color: black;
+  }
+  
+  .login-container {
+    padding: 10px 0; /* Increased padding for heading */
+    font-size: 12px; /* Larger font size for heading */
+    color: white; /* Text color */
+    font-weight: bold;
+
+  }
+
+  .login-container svg{
+    height: 65px;
+    width: 65px;
+    margin: 25px;
+    margin-top: 40px;
+    color:#24cc63;
+  }
+  
+  .login-container input {
+    border-radius: 20px; /* Slightly rounded corners for inputs */
+    padding: 15px; /* Increased padding for inputs */
+    margin: 28px 0; /* Adjusted margin for inputs */
+    width: 275px; /* Full width inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    transition: border-color 0.3s ease; /* Smooth transition for input border */
+  }
+  
+  .login-container input:focus {
+    border-color: #0D6AFF; /* Border color on focus */
+  }
+  
+  .login-container button {
+    width: 100%; /* Full width button */
+    padding: 15px; /* Increased padding for button */
+    background-color: #0D6AFF; /* Button background color */
+    color: #FFF; /* Button text color */
+    margin-top: 20px; /* Adjusted margin for button */
+    border: none; /* Remove button border */
+    border-radius: 20px; /* Slightly rounded corners for button */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Box shadow for button */
+    cursor: pointer; /* Pointer cursor for button */
+    transition: background-color 0.3s ease; /* Smooth transition for button background */
+  }
+  
+  .login-container button:hover {
+    background-color: #0B55FF; /* Button background color on hover */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0; /* Adjusted padding for form */
+    margin: 10px; /* Adjusted margin for form */
+  }
+  
